@@ -5,7 +5,9 @@
     :center="{lat:10, lng:10}"
     :zoom="7"
     map-type-id="terrain"
-    style="display: block; width: auto; height: 300px"
+    @tilesloaded="$tippy.forceUpdateHtml()"
+    @drag="$tippy.forceUpdateHtml()"
+    style="display: block; width: auto; height: 300px;width: 300px"
   ></gmap-map>
 </div>
 </template>
