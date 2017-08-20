@@ -6,6 +6,7 @@
     :zoom="7"
     map-type-id="terrain"
     @tilesloaded="$tippy.forceUpdateHtml()"
+    @idle="$tippy.forceUpdateHtml()"
     @drag="$tippy.forceUpdateHtml()"
     style="display: block; width: auto; height: 300px;width: 300px"
   ></gmap-map>
