@@ -15,7 +15,7 @@
             data-html="#comppopup">
                 Popover Vue Component
     </button>
-    <GoogleMaps style="display: none" id="comppopup"></GoogleMaps>
+    <GoogleMaps style="visibility: hidden;" id="comppopup"></GoogleMaps>
   </div>
 </template>
 
